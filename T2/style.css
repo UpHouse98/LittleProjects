@@ -1,0 +1,72 @@
+/* Flex container*/
+.col-all {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Sign up section*/
+ .col1{
+     background-color: aquamarine;
+     padding: 10px;
+     flex: 70%;
+     border-radius: 20px;
+ }
+
+/* Add*/
+ .col2{
+    background-color:yellow;
+    padding: 10px;
+    flex: 20%;
+    border-radius: 20px;
+    color: red;
+}
+
+#Name, #Email{
+    width: 90%;
+    margin: 5px;
+}
+
+#Email:focus {
+    background-color: lightgreen;
+    border-color: darkgreen;
+    border-width: 2px;
+}
+
+#Name:focus {
+    background-color: lightgreen;
+    border-color: darkgreen;
+    border-width: 2px;
+}
+
+/* Sign-up button font-size*/
+#signup{
+    font-size: 1.2em;
+}
+
+#check{
+    margin-bottom: 5px;
+}
+
+/* Screen properties when below 750px*/
+ @media (max-width: 750px){
+     .col2{
+         display: none;
+     }
+     .col1{
+         flex:95%; 
+     }
+     #Name, #Email{
+        width: 85%;
+        margin: 5px;
+    }
+ }
+
+ 
+
+
