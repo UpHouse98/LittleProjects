@@ -1,1 +1,38 @@
+<!-- 
+When the “Start countdown” button is pressed:
+    The “Start Countdown” button is hidden
+    A countdown downwards from 10 seconds with an interval of 1 second starts and is 
+displayed on the page, in the defined div
+    The color of the countdown text changes randomly every time it is updated. Note 
+that a function which returns a random color is already provided to you in the 
+JavaScript document. You can use this function to generate a random color, you do 
+not need to write your own
 
+When the countdown finishes:
+    One random piece of data is imported and displayed from 
+https://jsonplaceholder.typicode.com/posts/. The data is displayed in the 
+countdown div as “id. title” where id is the “id” from the JSON data and title is the 
+contents of the “title” field from the JSON data. The data imported needs to be 
+truly random chosen between 1 – 100.
+    Font size of the countdown div is shrunk to “100px” so the text is smaller and fits the 
+screen
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Happy New Year!</title>
+</head>
+
+<body>
+    <div id="Smaller">
+        <h1 id="countDown">10</h1>
+    </div>
+    <button id="btnStart">Start countdown!</button>
+</body>
+
+</html>
