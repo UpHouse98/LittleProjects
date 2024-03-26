@@ -1,2 +1,2 @@
- ---Project 1: https://uphouse98.github.io/LittleProjects/T1 /n
+ ---Project 1: https://uphouse98.github.io/LittleProjects/T1  
  ---Project 2: https://uphouse98.github.io/LittleProjects/T2
