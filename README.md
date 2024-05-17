@@ -1,2 +1,1 @@
- ---Project T1: https://uphouse98.github.io/LittleProjects/T1  
- ---Project T2: https://uphouse98.github.io/LittleProjects/T2
+
